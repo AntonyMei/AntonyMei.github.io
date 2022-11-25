@@ -95,8 +95,8 @@
         <div class="row">
             <!-- About -->
             <div class="col-md-12">
-                <h2 id="About" onclick="ShowAndHide('About-block')">About</h2>
-                <div style="font-size: 15px; text-align: left; display: none" id="About-block">
+                <h2 id="About"><b>About</b></h2>
+                <div style="font-size: 15px; text-align: left;" id="About-block">
                    I am a fourth year undergraduate student at <a href="https://iiis.tsinghua.edu.cn/en/yaoclass/">Yao Class</a> (Computer Science),
                    <a href="https://iiis.tsinghua.edu.cn/en/">Institute for Interdisciplinary Information Sciences</a>, Tsinghua University.
                    My research interests focus on the intersection of distributed systems and compilers with other emerging fields, including
@@ -108,14 +108,19 @@
         <!-- Research -->
         <div class="row">
             <div class="col-md-12" >
-                <h2 id="research" onclick="ShowAndHide('research-block')">Research</h2>
+                <h2 id="research"><b>Research</b></h2>
+                <div class="col-md-12" style="font-size: 15px; text-align: left">
+                    Currently, my research mainly focus on two directions: distributed reinforcement learning systems
+                    and learning-based quantum compilers. Click on the titles below to see details about each research
+                    project.
+                </div>
             </div>
         </div>
-        <div id="research-block" style="display: none">
+        <div id="research-block">
             <!-- Research - 1 - Distributed Muzero -->
             <div class="row">
                 <div class="col-md-12" style="font-size: 15px; text-align: left">
-                    <h3 id="distributed-muzero" onclick="ShowAndHide('distributed-muzero-block')"><b>Distributed Muzero</b></h3>
+                    <h3 id="distributed-muzero" onclick="ShowAndHide('distributed-muzero-block')">&#8226 <u>Distributed Muzero</u></h3>
                 </div>
                 <div id="distributed-muzero-block" style="display: none">
                     <div class="col-md-8">
@@ -152,7 +157,7 @@
             <!-- Research - 2 - Quantum Circuit Optimizer -->
             <div class="row">
                 <div class="col-md-12" style="font-size: 15px; text-align: left">
-                    <h3 id="quantum-circuit-optimizer" onclick="ShowAndHide('quantum-circuit-optimizer-block')"><b>Learning-Based Quantum Circuit Optimizer</b></h3>
+                    <h3 id="quantum-circuit-optimizer" onclick="ShowAndHide('quantum-circuit-optimizer-block')">&#8226 <u>Learning-Based Quantum Circuit Optimizer</u></h3>
                 </div>
                 <div id="quantum-circuit-optimizer-block" style="display: none">
                     <div class="col-md-12">
@@ -181,7 +186,7 @@
             <!-- Research - 3 - Qubit Mapping -->
             <div class="row">
                 <div class="col-md-12" style="font-size: 15px; text-align: left">
-                    <h3 id="qubit-mapping" onclick="ShowAndHide('qubit-mapping-block')"><b>Learning-Based Quantum Circuit Layout Synthesizer</b></h3>
+                    <h3 id="qubit-mapping" onclick="ShowAndHide('qubit-mapping-block')">&#8226 <u>Learning-Based Quantum Circuit Layout Synthesizer</u></h3>
                 </div>
                 <div id="qubit-mapping-block" style="display: none">
                     <div class="col-md-5">
@@ -217,10 +222,11 @@
         <!-- Publications -->
         <div class="row">
             <div class="col-md-12">
-                <h2 id="graphics">Computer Graphics & Games</h2>
+                <h2 id="graphics"><b>Computer Graphics & Games</b></h2>
                 <div class="col-md-12" style="font-size: 15px; text-align: left">
                     I am also a big fan of computer games and computer graphics. I enjoy games that tell epic stories. Some
                     of my favourite games include: <a href="https://www.halowaypoint.com/">Halo</a>,
+                    <a href="https://en.bandainamcoent.eu/elden-ring/elden-ring">EldenRing</a>,
                     <a href="https://www.gearsofwar.com/">Gears of War</a>,
                     and <a href="https://www.ea.com/games/mass-effect/mass-effect-legendary-edition?setLocale=en-us">Mass Effect</a>.
                     This interest also motivates me to build games and renderers myself. Here are some of my work:

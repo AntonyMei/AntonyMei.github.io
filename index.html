@@ -224,7 +224,7 @@
             <div class="col-md-12">
                 <h2 id="graphics"><b>Computer Graphics & Games</b></h2>
                 <div class="col-md-12" style="font-size: 15px; text-align: left">
-                    I am also a big fan of computer games and computer graphics. I enjoy games that tell epic stories. Some
+                    I am a big fan of computer games and also computer graphics. I enjoy games that tell epic stories. Some
                     of my favourite games include: <a href="https://www.halowaypoint.com/">Halo</a>,
                     <a href="https://en.bandainamcoent.eu/elden-ring/elden-ring">EldenRing</a>,
                     <a href="https://www.gearsofwar.com/">Gears of War</a>,
@@ -233,57 +233,96 @@
                 </div>
             </div>
         </div>
-        <!-- Research - 3 - Qubit Mapping -->
-            <div class="row">
-                <div class="col-md-12" style="font-size: 15px; text-align: left">
-                    <h3 id="renderer" onclick="ShowAndHide('renderer-block')">&#8226 <u>Parallel Ray-Tracing Renderer</u></h3>
+        <!-- Renderer -->
+        <div class="row">
+            <div class="col-md-12" style="font-size: 15px; text-align: left">
+                <h3 id="renderer" onclick="ShowAndHide('renderer-block')">&#8226 <u>Parallel Ray-Tracing Renderer</u></h3>
+            </div>
+            <div id="renderer-block" style="display: none">
+                <div class="col-md-4">
+                    <img class="centerfig90" src="figs/graphics/test_obj.jpg" alt="test_obj">
                 </div>
-                <div id="renderer-block" style="display: none">
-                    <div class="col-md-4">
-                        <img class="centerfig80" src="figs/graphics/test_obj.jpg" alt="test_obj">
-                    </div>
-                    <div class="col-md-4">
-                        <img class="centerfig80" src="figs/graphics/cornell_box_participating_media.jpg" alt="cornell_box_participating_media">
-                    </div>
-                    <div class="col-md-4">
-                        <img class="centerfig80" src="figs/graphics/book_2_final.jpg" alt="book_2_final">
-                    </div>
-                    <div class="col-md-4" style="margin-top: 1mm">
-                        <img class="centerfig80" src="figs/graphics/sponza_sun.jpg" alt="sponza_sun">
-                    </div>
-                    <div class="col-md-4" style="margin-top: 1mm">
-                        <img class="centerfig80" src="figs/graphics/sponza_crytek_cloudy.jpg" alt="sponza_crytek_cloudy">
-                    </div>
-                    <div class="col-md-4" style="margin-top: 1mm">
-                        <img class="centerfig80" src="figs/graphics/photon_mapping_bunny.jpg" alt="photon_mapping_bunny">
-                    </div>
-                    <div class="col-md-12" style="font-size: 15px; text-align: left; margin-top: 2mm">
-                        The figures above are generated using the parallel ray-tracing renderer I built in the course
-                        project for <i>Advanced Computer Graphics</i>. This renderer generally follows the framework
-                        introduced in <a href="https://raytracing.github.io">Ray Tracing Mini-books by Perter Shirley</a>
-                        (by the way, these three minibooks are perfect tutorials for beginners to ray tracing), but more
-                        advanced techniques are implemented beyond the scope of these books. The techniques supported
-                        include:
-                        <ul>
-                            <li>
-                                <b>Integrator:</b> Monte Carlo Path Tracing, Photon Mapping.
-                            </li>
-                            <li>
-                                <b>Accelerator:</b> BVH (AABB with SAH), Kd-Tree.
-                            </li>
-                            <li>
-                                <b>Complex Models:</b> .obj model with .mtl material description.
-                            </li>
-                            <li>
-                                <b>Materials:</b> Lambertian, Metal, Dielectric, PBR material, Isotropic, Diffuse Light.
-                            </li>
-                            <li>
-                                <b>Other Effects:</b> Bump Texture, Participating Media, Off-focus & Motion Blur.
-                            </li>
-                        </ul>
-                        <b>Code for this project can be found in: <a href="https://github.com/AntonyMei/RayTracingRender">AntonyMei/RayTracingRender</a>.</b>
-                    </div>
+                <div class="col-md-4">
+                    <img class="centerfig90" src="figs/graphics/cornell_box_participating_media.jpg" alt="cornell_box_participating_media">
                 </div>
+                <div class="col-md-4">
+                    <img class="centerfig90" src="figs/graphics/book_2_final.jpg" alt="book_2_final">
+                </div>
+                <div class="col-md-4" style="margin-top: 1mm">
+                    <img class="centerfig90" src="figs/graphics/sponza_sun.jpg" alt="sponza_sun">
+                </div>
+                <div class="col-md-4" style="margin-top: 1mm">
+                    <img class="centerfig90" src="figs/graphics/sponza_crytek_cloudy.jpg" alt="sponza_crytek_cloudy">
+                </div>
+                <div class="col-md-4" style="margin-top: 1mm">
+                    <img class="centerfig90" src="figs/graphics/photon_mapping_bunny.jpg" alt="photon_mapping_bunny">
+                </div>
+                <div class="col-md-12" style="font-size: 15px; text-align: left; margin-top: 2mm">
+                    The figures above are generated using the parallel ray-tracing renderer I built in the course
+                    project for <i>Advanced Computer Graphics</i>. This renderer generally follows the framework
+                    introduced in <a href="https://raytracing.github.io">Ray Tracing Mini-books by Perter Shirley</a>
+                    (by the way, these three minibooks are perfect tutorials for beginners to ray tracing), but more
+                    advanced techniques are implemented beyond the scope of these books. The techniques supported
+                    include:
+                    <ul>
+                        <li>
+                            <b>Integrator:</b> Monte Carlo Path Tracing, Photon Mapping.
+                        </li>
+                        <li>
+                            <b>Accelerator:</b> BVH (AABB with SAH), Kd-Tree.
+                        </li>
+                        <li>
+                            <b>Complex Models:</b> .obj model with .mtl material description.
+                        </li>
+                        <li>
+                            <b>Materials:</b> Lambertian, Metal, Dielectric, PBR material, Isotropic, Diffuse Light.
+                        </li>
+                        <li>
+                            <b>Other Effects:</b> Bump Texture, Participating Media, Off-focus & Motion Blur.
+                        </li>
+                    </ul>
+                    <b>Code for this project can be found in: <a href="https://github.com/AntonyMei/RayTracingRender">AntonyMei/RayTracingRender</a>.</b>
+                </div>
+            </div>
+        </div>
+        <!-- Portal -->
+        <div class="row">
+            <div class="col-md-12" style="font-size: 15px; text-align: left">
+                <h3 id="portal" onclick="ShowAndHide('portal-block')">&#8226 <u>Game: Portal</u></h3>
+            </div>
+            <div id="portal-block" style="display: none">
+                <div class="col-md-6">
+                    <img class="centerfig80" src="figs/portal/Fig1.jpg" alt="fig4">
+                </div>
+                <div class="col-md-6">
+                    <img class="centerfig80" src="figs/portal/Fig5.jpg" alt="fig5">
+                </div>
+                <div class="col-md-4" style="margin-top: 2mm">
+                    <img class="centerfig100" src="figs/portal/Fig4.jpg" alt="fig1">
+                </div>
+                <div class="col-md-4" style="margin-top: 2mm">
+                    <img class="centerfig100" src="figs/portal/Fig2.jpg" alt="fig2">
+                </div>
+                <div class="col-md-4" style="margin-top: 2mm">
+                    <img class="centerfig100" src="figs/portal/Fig3.jpg" alt="fig3">
+                </div>
+                <div class="col-md-12" style="font-size: 15px; text-align: left; margin-top: 3mm">
+                    I got inspiration for this game when I was playing <a href="https://store.steampowered.com/app/400/Portal/">Valve's game Portal</a>.
+                    Valve's Portal is a good game and I enjoyed it a lot. However, that game only has 12 levels and I soon
+                    finished the whole game. So I decided to make my own portal game using Unity. In my game, the player
+                    interacts with the environment, solves puzzles and activates portals with a special laser canon. The
+                    ultimate goal is to activate the portal and explore deeper into the island.
+                    <ul>
+                        <li>
+                            <b>A demo for this game is available at: <a href="https://github.com/AntonyMei/Portal/tree/master/Bin">Portal Demo (Windows)</a>.</b>
+                        </li>
+                        <li>
+                            <b>Code for this project can be found in: <a href="https://github.com/AntonyMei/Portal">AntonyMei/Portal</a>.</b>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
         <!-- Publications -->
         <div class="row">
@@ -304,7 +343,6 @@
     <!-- Other people may like it too! -->
     <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>
 
-    </div>
 </body>
 
 </html>

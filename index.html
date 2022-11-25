@@ -124,10 +124,10 @@
                 </div>
                 <div id="distributed-muzero-block" style="display: none">
                     <div class="col-md-8">
-                        <img class="centerfig100" src="figs/sz-arch.png" alt="sz-arch">
+                        <img class="centerfig100" src="figs/research/sz-arch.png" alt="sz-arch">
                     </div>
                     <div class="col-md-4">
-                        <img class="centerfig90" src="figs/smos.PNG" alt="sz-arch">
+                        <img class="centerfig90" src="figs/research/smos.PNG" alt="smos">
                     </div>
                     <div class="col-md-8">
                         <p style="text-align: center; margin-bottom: 2mm; margin-top: 1mm"><b>System Architecture</b></p>
@@ -161,7 +161,7 @@
                 </div>
                 <div id="quantum-circuit-optimizer-block" style="display: none">
                     <div class="col-md-12">
-                        <img class="centerfig80" src="figs/quantum-circuit-optimizer.PNG" alt="sz-arch">
+                        <img class="centerfig80" src="figs/research/quantum-circuit-optimizer.PNG" alt="quantum-circuit-optimizer">
                     </div>
                     <div class="col-md-12">
                         <p style="text-align: center; margin-bottom: 2mm; margin-top: 1mm"><b>Neural Architecture</b></p>
@@ -190,10 +190,10 @@
                 </div>
                 <div id="qubit-mapping-block" style="display: none">
                     <div class="col-md-5">
-                        <img class="centerfig100" src="figs/dgnn-layer.PNG" alt="sz-arch">
+                        <img class="centerfig100" src="figs/research/dgnn-layer.PNG" alt="dgnn-layer">
                     </div>
                     <div class="col-md-7">
-                        <img class="centerfig95" src="figs/qubit-mapper.PNG" alt="sz-arch">
+                        <img class="centerfig95" src="figs/research/qubit-mapper.PNG" alt="qubit-mapper">
                     </div>
                     <div class="col-md-5">
                         <p style="text-align: center; margin-bottom: 2mm; margin-top: 1mm"><b>DGNN Architecture</b></p>
@@ -219,7 +219,7 @@
             </div>
         </div>
 
-        <!-- Publications -->
+        <!-- Computer Graphics & Games -->
         <div class="row">
             <div class="col-md-12">
                 <h2 id="graphics"><b>Computer Graphics & Games</b></h2>
@@ -233,6 +233,57 @@
                 </div>
             </div>
         </div>
+        <!-- Research - 3 - Qubit Mapping -->
+            <div class="row">
+                <div class="col-md-12" style="font-size: 15px; text-align: left">
+                    <h3 id="renderer" onclick="ShowAndHide('renderer-block')">&#8226 <u>Parallel Ray-Tracing Renderer</u></h3>
+                </div>
+                <div id="renderer-block" style="display: none">
+                    <div class="col-md-4">
+                        <img class="centerfig80" src="figs/graphics/test_obj.jpg" alt="test_obj">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="centerfig80" src="figs/graphics/cornell_box_participating_media.jpg" alt="cornell_box_participating_media">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="centerfig80" src="figs/graphics/book_2_final.jpg" alt="book_2_final">
+                    </div>
+                    <div class="col-md-4" style="margin-top: 1mm">
+                        <img class="centerfig80" src="figs/graphics/sponza_sun.jpg" alt="sponza_sun">
+                    </div>
+                    <div class="col-md-4" style="margin-top: 1mm">
+                        <img class="centerfig80" src="figs/graphics/sponza_crytek_cloudy.jpg" alt="sponza_crytek_cloudy">
+                    </div>
+                    <div class="col-md-4" style="margin-top: 1mm">
+                        <img class="centerfig80" src="figs/graphics/photon_mapping_bunny.jpg" alt="photon_mapping_bunny">
+                    </div>
+                    <div class="col-md-12" style="font-size: 15px; text-align: left; margin-top: 2mm">
+                        The figures above are generated using the parallel ray-tracing renderer I built in the course
+                        project for <i>Advanced Computer Graphics</i>. This renderer generally follows the framework
+                        introduced in <a href="https://raytracing.github.io">Ray Tracing Mini-books by Perter Shirley</a>
+                        (by the way, these three minibooks are perfect tutorials for beginners to ray tracing), but more
+                        advanced techniques are implemented beyond the scope of these books. The techniques supported
+                        include:
+                        <ul>
+                            <li>
+                                <b>Integrator:</b> Monte Carlo Path Tracing, Photon Mapping.
+                            </li>
+                            <li>
+                                <b>Accelerator:</b> BVH (AABB with SAH), Kd-Tree.
+                            </li>
+                            <li>
+                                <b>Complex Models:</b> .obj model with .mtl material description.
+                            </li>
+                            <li>
+                                <b>Materials:</b> Lambertian, Metal, Dielectric, PBR material, Isotropic, Diffuse Light.
+                            </li>
+                            <li>
+                                <b>Other Effects:</b> Bump Texture, Participating Media, Off-focus & Motion Blur.
+                            </li>
+                        </ul>
+                        <b>Code for this project can be found in: <a href="https://github.com/AntonyMei/RayTracingRender">AntonyMei/RayTracingRender</a>.</b>
+                    </div>
+                </div>
 
         <!-- Publications -->
         <div class="row">
@@ -253,6 +304,7 @@
     <!-- Other people may like it too! -->
     <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>
 
+    </div>
 </body>
 
 </html>

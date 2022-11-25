@@ -2,21 +2,27 @@
     max-width: 800px;
     margin: 0 auto;
 }
-.centerfig {
+.centerfig60 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
 }
-.centerfig2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-.centerfig3 {
+.centerfig80 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+.centerfig90 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.centerfig100 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }

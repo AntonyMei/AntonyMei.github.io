@@ -35,7 +35,7 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
 				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#projects">Projects</a></li>
+				  <li><a href="#research">Research</a></li>
 				  <li><a href="#publications">Publications</a></li>
 		  </ul>
 		</div>
@@ -97,10 +97,10 @@
         <!-- Projects -->
         <div class="row">
             <div class="col-md-12" >
-                <h2 id="projects">Projects</h2>
+                <h2 id="research">Research</h2>
             </div>
         </div>
-        <!-- Projects - 1 - Distributed Muzero (SpeedyZero) -->
+        <!-- Projects - 1 - Distributed Muzero -->
         <div class="row">
             <div class="col-md-12" style="font-size: 15px; text-align: left">
                 <h3 id="distributed-muzero"><b>Distributed Muzero</b></h3>
@@ -109,7 +109,7 @@
                 <img class="centerfig2" src="figs/sz-arch.png" alt="sz-arch"><br>
             </div>
             <div class="col-md-4">
-                <img class="centerfig3" src="figs/smos.PNG" alt="sz-arch"><br>
+                <img class="centerfig2" src="figs/smos.PNG" alt="sz-arch"><br>
             </div>
             <div class="col-md-12" style="font-size: 15px; text-align: left">
                 <b>Distributed Muzero</b> is a distributed reinforcement learning (RL) training system based on sample-efficient
@@ -125,6 +125,30 @@
                         A byproduct is <a href="https://github.com/AntonyMei/SharedMemoryObjectStore">SMOS</a>,
                         a high throughput low latency shared memory object store. It's also available as a standalone
                         Python package on PyPI: <a href="https://pypi.org/project/SMOS-antony/">SMOS_antony</a>.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Projects - 2 - Quantum Compiler -->
+        <div class="row">
+            <div class="col-md-12" style="font-size: 15px; text-align: left">
+                <h3 id="quantum-circuit-optimizer"><b>Learning-Based Quantum Circuit Optimizer</b></h3>
+            </div>
+            <div class="col-md-12">
+                <img class="centerfig3" src="figs/quantum-circuit-optimizer.PNG" alt="sz-arch"><br>
+            </div>
+            <div class="col-md-12" style="font-size: 15px; text-align: left">
+                Quantum circuit optimization aims to reduce the number of quantum gates in a given quantum circuit. This
+                can usually be achieved through <i>quantum circuit transformation</i>s, which substitutes a sub-circuit with other
+                functionally equivalent circuits. In this work, we guide the application of quantum circuit transformation
+                with reinforcement learning. With our novel neural architecture and RL-training procedure, our RL-based
+                approach significantly outperforms existing circuit optimizers on almost all benchmark circuits. It also
+                learns to perform rotation merging, which is a complex, non-local circuit optimization implemented as a separate
+                pass in existing optimizers.
+                <ul>
+                    <li>
+                        <b>This work led to a third author submission to ASPLOS 2023 (currently in review).</b>
+                        Note that the name is omitted here for anonymous requirements.
                     </li>
                 </ul>
             </div>

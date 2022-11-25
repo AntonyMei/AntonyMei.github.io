@@ -106,10 +106,16 @@
                 <h3 id="distributed-muzero"><b>Distributed Muzero</b></h3>
             </div>
             <div class="col-md-8">
-                <img class="centerfig100" src="figs/sz-arch.png" alt="sz-arch"><br>
+                <img class="centerfig100" src="figs/sz-arch.png" alt="sz-arch">
             </div>
             <div class="col-md-4">
-                <img class="centerfig100" src="figs/smos.PNG" alt="sz-arch"><br>
+                <img class="centerfig90" src="figs/smos.PNG" alt="sz-arch">
+            </div>
+            <div class="col-md-8">
+                <p style="text-align: center; margin-bottom: 2mm; margin-top: 1mm"><b>System Architecture</b></p>
+            </div>
+            <div class="col-md-4">
+                <p style="text-align: center; margin-bottom: 2mm; margin-top: 1mm"><b>SMOS Transition Model</b></p>
             </div>
             <div class="col-md-12" style="font-size: 15px; text-align: left">
                 <b>Distributed Muzero</b> is a distributed reinforcement learning (RL) training system based on sample-efficient
@@ -135,7 +141,10 @@
                 <h3 id="quantum-circuit-optimizer"><b>Learning-Based Quantum Circuit Optimizer</b></h3>
             </div>
             <div class="col-md-12">
-                <img class="centerfig80" src="figs/quantum-circuit-optimizer.PNG" alt="sz-arch"><br>
+                <img class="centerfig80" src="figs/quantum-circuit-optimizer.PNG" alt="sz-arch">
+            </div>
+            <div class="col-md-12">
+                <p style="text-align: center; margin-bottom: 2mm; margin-top: 1mm"><b>Neural Architecture</b></p>
             </div>
             <div class="col-md-12" style="font-size: 15px; text-align: left">
                 Quantum circuit optimization aims to reduce the number of quantum gates in a given quantum circuit. This
@@ -159,13 +168,30 @@
                 <h3 id="qubit-mapping"><b>Learning-Based Quantum Circuit Layout Synthesizer</b></h3>
             </div>
             <div class="col-md-5">
-                <img class="centerfig100" src="figs/dgnn-layer.PNG" alt="sz-arch"><br>
+                <img class="centerfig100" src="figs/dgnn-layer.PNG" alt="sz-arch">
             </div>
             <div class="col-md-7">
-                <img class="centerfig90" src="figs/qubit-mapper.PNG" alt="sz-arch"><br>
+                <img class="centerfig95" src="figs/qubit-mapper.PNG" alt="sz-arch">
+            </div>
+            <div class="col-md-5">
+                <p style="text-align: center; margin-bottom: 2mm; margin-top: 1mm"><b>DGNN Architecture</b></p>
+            </div>
+            <div class="col-md-7">
+                <p style="text-align: center; margin-bottom: 2mm; margin-top: 1mm"><b>RL Agent Architecture</b></p>
             </div>
             <div class="col-md-12" style="font-size: 15px; text-align: left">
-
+                Quantum circuit layout synthesis (a.k.a. qubit mapping) aims to add the fewest number of swaps into
+                a logical quantum circuit to make it executable on a physical quantum device. This problem has been
+                proven to be a NP-complete combinatorial problem. In this work, we guide the insertion of swaps with
+                reinforcement learning. We design a novel <i>Dual Graph Neural Network</i> to capture the complex
+                state information and propose a joint RL training scheme that incorporates search for good initial
+                mappings. Experiments show that our RL-based approach can significantly outperform existing qubit
+                mappers on multiple benchmarks.
+                <ul>
+                    <li>
+                        <b>We plan to submit this work to ICML 2023. (I will be the first author)</b>
+                    </li>
+                </ul>
             </div>
         </div>
 

@@ -32,3 +32,27 @@
   margin-right: auto;
   width: 100%;
 }
+/* make links red */
+a:link {
+  color: #D1221A;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #D1221A;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D1221A;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #D1221A;
+  background-color: transparent;
+  text-decoration: none;
+}

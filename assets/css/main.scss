@@ -33,12 +33,15 @@
 .publication__venue {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.25em;
-  margin-right: 0.35em;
+  width: 9em;
   padding: 0.08em 0.45em;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   background-color: $code-background-color;
+  box-sizing: border-box;
+  flex: 0 0 9em;
   font-size: 0.82em;
   font-weight: 600;
   line-height: 1.4;
@@ -72,12 +75,15 @@
 }
 
 .publication__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4em;
   margin-top: 0.25em;
 }
 
 .publication__links a {
   display: inline-block;
-  margin-right: 0.4em;
   padding: 0.1em 0.45em;
   border: 1px solid $border-color;
   border-radius: $border-radius;
@@ -86,6 +92,11 @@
 
 .publication__links a:hover {
   text-decoration: none;
+}
+
+.publication__separator {
+  height: 1.1em;
+  border-left: 1px solid $border-color;
 }
 
 .publication__status {

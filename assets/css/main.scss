@@ -109,6 +109,29 @@
   font-size: 0.8em;
 }
 
+.experience-item {
+  padding: 0.65em 0;
+  border-top: 1px solid $border-color;
+}
+
+.experience-item:first-of-type {
+  padding-top: 0.25em;
+  border-top: 0;
+}
+
+.experience-item p {
+  margin-bottom: 0.15em;
+}
+
+.experience-item > p:last-child {
+  margin-bottom: 0;
+}
+
+.experience__meta {
+  color: $muted-text-color;
+  font-size: 0.9em;
+}
+
 .sidebar {
   opacity: 1;
 }

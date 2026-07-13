@@ -35,6 +35,23 @@
   white-space: nowrap;
 }
 
+.publication__links {
+  margin-top: 0.25em;
+}
+
+.publication__links a {
+  display: inline-block;
+  margin-right: 0.4em;
+  padding: 0.1em 0.45em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  text-decoration: none;
+}
+
+.publication__links a:hover {
+  text-decoration: none;
+}
+
 .publication-note {
   margin-top: 0;
   font-size: 0.8em;

@@ -31,8 +31,39 @@
 }
 
 .publication__venue {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  margin-right: 0.35em;
+  padding: 0.08em 0.45em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background-color: $code-background-color;
+  font-size: 0.82em;
   font-weight: 600;
+  line-height: 1.4;
   white-space: nowrap;
+  vertical-align: 0.08em;
+}
+
+.publication__venue img {
+  width: 1.2em;
+  height: 1.2em;
+  object-fit: contain;
+}
+
+.publication__venue--asplos {
+  justify-content: center;
+}
+
+.publication__venue--asplos img {
+  width: auto;
+  height: 1.1em;
+}
+
+.publication__venue--iclr img {
+  width: auto;
+  height: 1.1em;
 }
 
 .publication__links {

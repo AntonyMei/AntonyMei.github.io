@@ -17,6 +17,29 @@
   font-size: 1.25rem;
 }
 
+.publication-list {
+  margin-top: 0;
+}
+
+.publication-list > li {
+  margin-bottom: 0.8em;
+  padding-left: 0.15em;
+}
+
+.publication-list p {
+  margin-bottom: 0.15em;
+}
+
+.publication__venue {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.publication-note {
+  margin-top: 0;
+  font-size: 0.8em;
+}
+
 .sidebar {
   opacity: 1;
 }

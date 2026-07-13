@@ -20,3 +20,9 @@
 .sidebar {
   opacity: 1;
 }
+
+@media (min-width: 64em) {
+  .author__avatar img {
+    max-width: 165px;
+  }
+}

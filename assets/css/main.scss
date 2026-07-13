@@ -36,6 +36,7 @@
   justify-content: center;
   gap: 0.25em;
   width: 9em;
+  height: 1.75rem;
   padding: 0.08em 0.45em;
   border: 1px solid $border-color;
   border-radius: $border-radius;
@@ -83,20 +84,18 @@
 }
 
 .publication__links a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  height: 1.75rem;
   padding: 0.1em 0.45em;
   border: 1px solid $border-color;
   border-radius: $border-radius;
+  box-sizing: border-box;
   text-decoration: none;
 }
 
 .publication__links a:hover {
   text-decoration: none;
-}
-
-.publication__separator {
-  height: 1.1em;
-  border-left: 1px solid $border-color;
 }
 
 .publication__status {

@@ -17,6 +17,15 @@
   font-size: 1.25rem;
 }
 
+.job-search-notice strong,
+.job-search-notice a {
+  color: #9b2c3d;
+}
+
+.job-search-notice a {
+  text-decoration: underline;
+}
+
 .publication-list {
   margin-top: 0;
 }
